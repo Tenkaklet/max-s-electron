@@ -1,0 +1,27 @@
+{
+  "name": "max-s-electron",
+  "description": "My cat&#39;s meow app",
+  "main": "index.js",
+  "authors": [
+    "Max Carlquist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "angular": "1.6.9",
+    "angular-route": "^1.6.9",
+    "jquery": "^3.3.1"
+  }
+}

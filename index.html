@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="max-app">
+	<head>
+		<meta charset="utf-8">
+		<title>Electron boilerplate</title>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="app/styles/css/main.css">
+	</head>
+	<body>
+		<main class="container">
+			<div ng-view></div>
+		</main>
+		<!-- lib files here -->
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-route/angular-route.min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- app specific files -->
+		<script src="app/app.js"></script>
+		<script src="app/controllers/homeCtrl.js"></script>
+	</body>
+</html>
