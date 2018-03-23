@@ -1,6 +1,6 @@
 # max-s-electron
 
-> My cat&#39;s meow app
+> My starter app for electron
 
 
 ## Dev
